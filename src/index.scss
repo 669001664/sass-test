@@ -1,4 +1,4 @@
-$color : #ffffff;
+@import '../src/main';
 //变量的定义
 #container {
   background: $color;
@@ -22,5 +22,9 @@ $color : #ffffff;
       top:10px;
       bottom: 20px;
     };
+    #{$student}{
+      border: 1px solid red;
+      color: #{$color};
+    }
   }
 }

@@ -1,0 +1,19 @@
+#container {
+  background: #ffffff;
+  width: 100px; }
+  #container .box1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+    #container .box1 a {
+      color: red; }
+      #container .box1 a:hover {
+        color: #ff66da; }
+    #container .box1-item {
+      list-style: none; }
+    #container .box1 .stident-list li {
+      border: 1px solid red;
+      color: #ffffff; }
+
+/*# sourceMappingURL=index.css.map */

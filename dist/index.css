@@ -17,5 +17,9 @@
 #container .box1-item {
   list-style: none;
 }
+#container .box1 .stident-list li {
+  border: 1px solid red;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=index.css.map */
