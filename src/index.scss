@@ -27,4 +27,13 @@
       color: #{$color};
     }
   }
+  .box2 {
+    @include box(red,100px)
+  }
+  .box3{
+    @include aa()
+  }
+  .box4{
+    @include aa($w:60px)
+  }
 }

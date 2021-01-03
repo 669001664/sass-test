@@ -21,5 +21,17 @@
   border: 1px solid red;
   color: #ffffff;
 }
+#container .box2 {
+  background: red;
+  width: 100px;
+}
+#container .box3 {
+  background: red;
+  width: 50px;
+}
+#container .box4 {
+  background: red;
+  width: 60px;
+}
 
 /*# sourceMappingURL=index.css.map */

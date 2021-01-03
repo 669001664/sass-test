@@ -1,2 +1,11 @@
 $color: #ffffff;
-$student:'.stident-list li'
+$student:'.stident-list li';
+//混合宏
+@mixin box ($c,$w){
+  background: $c;
+  width: $w;
+}
+@mixin aa($c:red,$w:50px){
+ background: $c;
+  width: $w;
+}
