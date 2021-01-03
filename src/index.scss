@@ -40,4 +40,23 @@
     @extend .box2;
     font-size: 14px;
   }
+  .box6{
+
+    width: 5px*20;
+   // width: 20px+51px;
+    height: percentage(200px/400px);
+    &::after{
+      //content: to_upper_case($str);
+      //content: str-length($str);
+      //content: str_index($str,'!'); 查看在的位置
+      content:str_insert($str,'55',4)
+    }
+  }
+  .box7 {
+    color: $color;
+    color: lighten($color,20%);//变浅
+    color:darken($color,20%);//变深
+    color: opacify($color,.2);//更不透明
+    color:transparentize($color,.3)
+  }
 }

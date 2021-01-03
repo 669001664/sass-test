@@ -26,5 +26,16 @@
     width: 60px; }
   #container .box5 {
     font-size: 14px; }
+  #container .box6 {
+    width: 100px;
+    height: 50%; }
+    #container .box6::after {
+      content: "hel55lo world!"; }
+  #container .box7 {
+    color: #ffffff;
+    color: white;
+    color: #cccccc;
+    color: white;
+    color: rgba(255, 255, 255, 0.7); }
 
 /*# sourceMappingURL=index.css.map */
