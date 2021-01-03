@@ -15,7 +15,7 @@
     #container .box1 .stident-list li {
       border: 1px solid red;
       color: #ffffff; }
-  #container .box2 {
+  #container .box2, #container .box5 {
     background: red;
     width: 100px; }
   #container .box3 {
@@ -24,5 +24,7 @@
   #container .box4 {
     background: red;
     width: 60px; }
+  #container .box5 {
+    font-size: 14px; }
 
 /*# sourceMappingURL=index.css.map */

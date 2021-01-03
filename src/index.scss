@@ -36,4 +36,8 @@
   .box4{
     @include aa($w:60px)
   }
+  .box5 {
+    @extend .box2;
+    font-size: 14px;
+  }
 }
