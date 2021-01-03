@@ -59,4 +59,17 @@
     color: opacify($color,.2);//更不透明
     color:transparentize($color,.3)
   }
+  .box8{
+    border:$border;
+    border: append($border1,dotted);
+    border: index($border,solid);
+    border:join($border,$border1);
+    color: nth($border1,2);
+    z-index: length($border1);
+  }
+  .box9{
+    color: map_keys(($colors));
+    color: map_values($colors);
+    color: map_has_key($colors,color2);
+  }
 }

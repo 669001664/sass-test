@@ -1,6 +1,9 @@
 $color: #ffffff;
 $student:'.stident-list li';
 $str:'hello world!';
+$border:5px solid red;
+$border1:2px green;
+$colors:(color1:red,color2:green,color3:blue);
 //混合宏
 @mixin box ($c,$w){
   background: $c;

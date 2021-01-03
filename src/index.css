@@ -37,5 +37,16 @@
     color: #cccccc;
     color: white;
     color: rgba(255, 255, 255, 0.7); }
+  #container .box8 {
+    border: 5px solid red;
+    border: 2px green dotted;
+    border: 2;
+    border: 5px solid red 2px green;
+    color: green;
+    z-index: 2; }
+  #container .box9 {
+    color: color1, color2, color3;
+    color: red, green, blue;
+    color: true; }
 
 /*# sourceMappingURL=index.css.map */
