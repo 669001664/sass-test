@@ -72,4 +72,40 @@
     color: map_values($colors);
     color: map_has_key($colors,color2);
   }
+  @for $i from 1 to 4 {
+    .item#{$i}{
+      width: 100px*$i;
+    }
+  }
+  @for $i from 1 through 5{
+    .item#{$i}{
+      width: 100px*$i;
+    }
+  }
+  @each $item in $border {
+ .item-#{$item}{
+   width: #{$item};
+ }
+  }
+  $i:1;
+  @while $i<3{
+  .dog-#{$i}{
+    height: 100px*$i;
+  }
+  $i:$i+1
+}
+  @function  fn1($n){
+    @if($n == 1){
+      @return red;
+    }@else if($n == 2){
+      @return green;
+    }@else {
+      @warn '警告 ';
+      @error '出错';
+      @return blue;
+    }
+  }
+  .box10 {
+    color: fn1(2);
+  }
 }

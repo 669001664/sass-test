@@ -63,5 +63,47 @@
   color: red, green, blue;
   color: true;
 }
+#container .item1 {
+  width: 100px;
+}
+#container .item2 {
+  width: 200px;
+}
+#container .item3 {
+  width: 300px;
+}
+#container .item1 {
+  width: 100px;
+}
+#container .item2 {
+  width: 200px;
+}
+#container .item3 {
+  width: 300px;
+}
+#container .item4 {
+  width: 400px;
+}
+#container .item5 {
+  width: 500px;
+}
+#container .item-5px {
+  width: 5px;
+}
+#container .item-solid {
+  width: solid;
+}
+#container .item-red {
+  width: red;
+}
+#container .dog-1 {
+  height: 100px;
+}
+#container .dog-2 {
+  height: 200px;
+}
+#container .box10 {
+  color: green;
+}
 
 /*# sourceMappingURL=index.css.map */
