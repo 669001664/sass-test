@@ -1,5 +1,26 @@
 $color : #ffffff;
+//变量的定义
 #container {
   background: $color;
   width: 100px;
+  //选择器的嵌套
+  .box1 {
+    width: 100px;
+    height: 100px;
+    a{
+      color: red;
+      //& 是对外面元素的引用
+      &:hover{
+        color: #ff66da;
+      }
+    }
+    &-item{
+      list-style: none;
+    }
+    // 属性的嵌套
+    margin: {
+      top:10px;
+      bottom: 20px;
+    };
+  }
 }
